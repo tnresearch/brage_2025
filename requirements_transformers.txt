@@ -1,0 +1,14 @@
+numpy==1.26.4
+pandas
+scikit-learn
+outlines
+openpyxl
+protobuf
+transformers
+accelerate
+sentencepiece
+datasets
+codecarbon
+matplotlib
+seaborn
+h5py

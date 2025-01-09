@@ -1,0 +1,7 @@
+{
+    "datasets": {
+      "Testdata": {"dataset_name":"Testdata",
+                  "dataset_dest":"data/Testdata.pkl",
+                  "prompts":["zero-shot","few_shot"]}
+    }
+  }

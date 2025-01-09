@@ -1,0 +1,14 @@
+{
+    "Testdata": {
+        "new_prompt": {
+            "sysprompt": "Vennligst angi kategori for oppkaldet: Churn, Network, Invoice, eller Simcode. Oppkald: ",
+            "model_type": "instruct",
+            "prompt_type": "zero-shot",
+            "refine_prompt": {
+                "inst_1": "Her er nogle kategorier: 'Churn', 'PIN', 'Simcode', 'Network'. \n Hvilken av kategoriene mener chatbotten teksten handler om? Svar kun med navn på kategori. Tekst fra chatbot: '"
+            },
+            "dataset_name": "Testdata",
+            "language": "Nb"
+        }
+    }
+}

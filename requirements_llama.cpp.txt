@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+openpyxl
+protobuf
+transformers
+accelerate
+sentencepiece
+datasets
+codecarbon
+matplotlib
+seaborn
+h5py

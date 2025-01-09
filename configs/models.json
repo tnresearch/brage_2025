@@ -1,0 +1,204 @@
+{
+  "models": { 
+    "meta-llama/Llama-2-13b-chat-hf": {
+      "model_dest": "meta-llama/Llama-2-13b-chat-hf",
+      "server":"transformers",
+      "model_type": "instruct",
+      "chat_format": "chatml",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- META ----------"
+    },
+    "meta-llama/Meta-Llama-3-8B-Instruct": {
+      "model_dest": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "server":"transformers",
+      "model_type": "instruct",
+      "chat_format": "chatml",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- META ----------"
+    },
+    "meta-llama/Meta-Llama-3-8B": {
+      "model_dest": "meta-llama/Meta-Llama-3-8B",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- META ----------"
+    },
+    "meta-llama/Meta-Llama-3.1-8B-Instruct": {
+      "model_dest": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "chatml",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- META ----------"
+    },
+    "meta-llama/Meta-Llama-3.1-8B": {
+      "model_dest": "meta-llama/Meta-Llama-3.1-8B",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- META ----------"
+    },
+    "mistralai/Mistral-7B-v0.1": {
+      "model_dest": "mistralai/Mistral-7B-v0.1",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- MISTRAL AI ----------"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.1": {
+      "model_dest": "mistralai/Mistral-7B-Instruct-v0.1",
+      "server":"transformers",
+      "model_type": "instruct",
+      "instruction_role": "user",
+      "chat_format": "chatml",
+      "quantized":false,
+      "gated":true,
+      "notes":"--------- MISTRAL AI ----------"
+    },
+    "google/gemma-2-2b": {
+      "model_dest": "google/gemma-2-2b",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Google ----------" 
+    },
+    "google/gemma-2-9b": {
+      "model_dest": "google/gemma-2-9b",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Google ----------"
+    },
+    "google/gemma-2-27b": {
+      "model_dest": "google/gemma-2-27b",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Google ----------"
+    },
+    "google/gemma-2-2b-it": {
+      "model_dest": "google/gemma-2-2b-it",
+      "server":"transformers",
+      "model_type": "instruction",
+      "chat_format": "chatml",
+      "instruction_role": "user",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Google ----------"
+    },
+    "google/gemma-2-9b-it": {
+      "model_dest": "google/gemma-2-9b-it",
+      "server":"transformers",
+      "model_type": "instruction",
+      "chat_format": "chatml",
+      "instruction_role": "user",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Google ----------"
+    },
+    "google/gemma-2-27b-it": {
+      "model_dest": "google/gemma-2-27b-it",
+      "server":"transformers",
+      "model_type": "instruction",
+      "chat_format": "chatml",
+      "instruction_role": "user",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Google ----------"
+    },
+    "RuterNorway/Llama-2-7b-chat-norwegian": {
+      "model_dest": "RuterNorway/Llama-2-7b-chat-norwegian",
+      "server":"transformers",
+      "model_type": "instruct",
+      "instruction_role": "system",
+      "chat_format": "alpaca",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Ruter Norway ----------"
+    },
+    "RuterNorway/Llama-2-13b-chat-norwegian": {
+      "model_dest": "RuterNorway/Llama-2-13b-chat-norwegian",
+      "server":"transformers",
+      "model_type": "instruct",
+      "instruction_role": "system",
+      "chat_format": "alpaca",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Ruter Norway ----------"
+    },
+    "bineric/NorskGPT-Mistral-7b": {
+      "model_dest": "bineric/NorskGPT-Mistral-7b",
+      "server":"transformers",
+      "model_type": "instruct",
+      "instruction_role": "system",
+      "chat_format": "alpaca",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Bineric ----------"
+    },
+    "bineric/NorskGPT-Llama3-8b": {
+      "model_dest": "bineric/NorskGPT-Llama3-8b",
+      "server":"transformers",
+      "model_type": "instruct",
+      "chat_format": "chatml",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":false,
+      "notes":"--------- Bineric ----------"
+    },
+    "norallm/normistral-7b-warm-instruct": {
+      "model_dest": "norallm/normistral-7b-warm-instruct",
+      "server":"transformers",
+      "model_type": "instruct",
+      "chat_format": "chatml",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"########## NORALLM ##########"
+    },
+    "norallm/normistral-7b-warm": {
+      "model_dest": "norallm/normistral-7b-warm",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"########## NORALLM ##########"
+    },
+    "norallm/normistral-7b-scratch": {
+      "model_dest": "norallm/normistral-7b-scratch",
+      "server":"transformers",
+      "model_type": "base",
+      "chat_format": "unknown",
+      "instruction_role": "system",
+      "quantized":false,
+      "gated":true,
+      "notes":"########## NORALLM ##########"
+    }
+  }
+} 
