@@ -11,11 +11,10 @@ from consts import dataset_name_map, model_map, model_to_color, scandeval_catego
 
 
 def load_agg_metrics(
-    run_id: str = "final",
+    run_id: str = "oct24",
     run_folder: str = "RUNS",
     ext: str = "xlsx",
     group: bool = False,
-    filter_prompt="full_description",
 ) -> pd.DataFrame:
     # filepath = f"{run_folder}/agg_metrics_{run_id}.{ext}"
     # ignore index in total
@@ -26,8 +25,6 @@ def load_agg_metrics(
         # df = df.reset_index()
     else:
         df = pd.read_excel(f"{run_folder}/agg_metrics_{run_id}.{ext}", index_col=0)
-    if filter_prompt:
-        df = df[df["prompts"] == filter_prompt]
     if group:
         df = group_metrics(df)
     return df
@@ -39,8 +36,6 @@ def group_metrics(agg_metrics: pd.DataFrame) -> pd.DataFrame:
         [
             "temperature",
             "test_mode",
-            "refine",
-            "prompts",
             "models",
             "max_task_tokens",
         ],
