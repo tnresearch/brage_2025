@@ -66,8 +66,6 @@ The framework will create a new directory in the `results/` folder for each run,
 - `predictions.h5`: Raw prediction results on task(row)-level
 - `agg_metrics.h5`: Aggregated performance metrics
 - Copy of the configuration files
-
-The notebook `latest_results.ipynb` will load the latest experiment and show the results.
 |
 ## Notes
 
